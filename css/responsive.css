@@ -3259,4 +3259,10 @@
   .success_bg {
     margin-left: 0px;
   }
+  .address_main {
+    justify-content: space-around;
+  }
+  .last_child {
+    width: 351px;
+  }
 }
