@@ -1010,4 +1010,18 @@ width: 100%;
   margin-left: 126px;
   position: absolute;
 }
+.about_imgl img {
+  width: 305px;
+  height: 415px;
+  object-fit: cover;
+  margin-left: 143px;
+}
+.about_right_img img {
+  width: 100%;
+  object-fit: cover;
+  height: 613px;
+  position: absolute;
+  top: 0px;
+  left: 36px;
+}
 /* footer part end */
