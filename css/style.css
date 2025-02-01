@@ -25,25 +25,29 @@ p {
 /* comon css end */
 
 /* nav bar start  */
+/* .nav_positon {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 999;
+border-color: darkblue;
+} */
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
+  background-color: ;
 }
 .role_nav {
   position: relative;
 }
-.role_nav ::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0px;
-  width: 100%;
-  height: 2px;
-  background-color: white;
-}
+/* .role_nav::after {
+content: '';
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 2px;
+background-color: rgba(255, 255, 255, 0);
+} */
 #nav .nav-item .nav-link {
   color: #fff;
   font-family: Arial;
@@ -54,6 +58,7 @@ nav {
   position: relative;
   transition: all linear 0.3s;
 }
+
 #nav .nav-item .nav-link::after {
   content: '';
   background-color: white;
@@ -183,7 +188,7 @@ nav {
   border-radius: 8px;
   border: none;
 }
-.nav_butoon button {
+.comon_button button {
   display: flex;
   padding: 16px 18px;
   justify-content: center;
@@ -199,6 +204,11 @@ nav {
   font-weight: 700;
   line-height: normal;
   margin-top: 40px;
+  border: 1px solid #05a081;
+  transition: all linear 0.3s;
+}
+.my button:hover {
+  background-color: transparent;
 }
 /* bannner end */
 
@@ -266,6 +276,13 @@ nav {
   position: absolute;
   bottom: -117px;
   left: -3px;
+  border: 1px solid #05a081;
+  color: white;
+  transition: all linear 0.3s;
+}
+.about_left_button button:hover {
+  background-color: #05a081;
+  color: white;
 }
 .about_right_img img {
   width: 94%;
@@ -433,6 +450,12 @@ nav {
   line-height: normal;
   border: none;
   margin-top: 130px;
+  border: 1px solid #05a081;
+  transition: all linear 0.3s;
+}
+.home_para_button button:hover {
+  background-color: transparent;
+  color: #05a081;
 }
 .home_right_img img {
   margin-left: 170px;
@@ -524,6 +547,12 @@ width: 100%;
   border: none;
   border-radius: 4px;
   background: #05a081;
+  border: 1px solid #05a081;
+  transition: all linear 0.3s;
+}
+.success_button button:hover {
+  background-color: transparent;
+  color: #05a081;
 }
 .success_bg_img_p {
   position: relative;
@@ -621,6 +650,12 @@ width: 100%;
   background: #05a081;
   border: none;
   margin-top: 100px;
+  border: 1px solid #05a081;
+  transition: all linear 0.3s;
+}
+.photo_album button:hover {
+  background-color: transparent;
+  color: #05a081;
 }
 /* album end */
 
@@ -768,6 +803,12 @@ width: 100%;
   border-radius: 4px;
   background: #05a081;
   border: none;
+  border: 1px solid #05a081;
+  transition: all linear 0.3s;
+}
+.shill_button button:hover {
+  background-color: transparent;
+  color: #05a081;
 }
 .main_shill {
   column-gap: 124px;
@@ -915,5 +956,67 @@ width: 100%;
   padding-left: 0px;
   margin-top: 0px;
 }
-
+.nav_sharch {
+  display: flex;
+  align-items: center;
+  column-gap: 59px;
+}
+.count_number_parent {
+  margin-top: 61px;
+  padding-top: 50px;
+}
+.album_row {
+  margin-top: 43px;
+  column-gap: 77px;
+  justify-content: center;
+  margin-top: 47px;
+  padding-top: 50px;
+}
+.nav_positon {
+  z-index: 999;
+  position: relative;
+}
+.main_home_button a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -23px;
+  background-color: #05a081;
+  width: 0%;
+  height: 3px;
+  transition: all linear 0.3s;
+}
+.banner_sid_bar {
+  width: 27px;
+  height: 550px;
+  /* background-color: red; */
+  margin-top: 370px;
+  margin-left: 83px;
+  position: absolute;
+}
+.nav_role_last {
+  width: 75%;
+  background-color: red;
+  height: 2px;
+  position: absolute;
+}
+.nav_role_last {
+  width: 100%;
+  background-color: white;
+  height: 2px;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+}
+.nav_role_positon {
+  position: relative;
+}
+.banner_sid_bar {
+  width: 27px;
+  height: 550px;
+  /* background-color: red; */
+  margin-top: 332px;
+  margin-left: 126px;
+  position: absolute;
+}
 /* footer part end */

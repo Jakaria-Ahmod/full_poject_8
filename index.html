@@ -11,53 +11,58 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <!-- link in extarnerl file  -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- link respnsive css file -->
+  <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
 
 <body>
   <!-- nav bar start  -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container role_nav">
-      <a class="navbar-brand" href="#">
-        <img src="./img/logo.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" id="nav" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home /</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Apartments /</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Property /</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contacts</a>
-          </li>
-        </ul>
-        <div class="row">
-          <a href="#" class="col-6">
-            <img src="./img/sharch_icon.png" alt="img">
-          </a>
-          <a href="#" class="col-6">
-            <img src="./img/nav_butoon_icon.png" alt="">
-          </a>
+  <div class="nav_positon">
+    <nav class="navbar navbar-expand-lg role_nav">
+      <div class="container nav_role_positon">
+        <div class="nav_role_last d-none d-xl-block"></div>
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" id="nav" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home /</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Apartments /</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Property /</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+            </li>
+          </ul>
+          <div class="row nav_sharch">
+            <a href="#" class="col-2">
+              <img src="./img/sharch_icon.png" alt="img">
+            </a>
+            <a href="#" class="col-2">
+              <img src="./img/nav_butoon_icon.png" alt="">
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
   <!-- nav bar end  -->
 
   <!-- banner section start  -->
 
 
   <section id="banner">
-    <div class="banner_sid_bar">
+    <div class="banner_sid_bar d-none d-xl-block">
       <p>FOLLOW</p>
       <div class="banner_sid_rol"></div>
       <div class="banner_socal_icon_parent">
@@ -74,14 +79,14 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
           <div class="banner_contat">
             <h3>Real Estate Searching Platform</h3>
             <h1>THE URBAN
               RESIDENTALS</h1>
             <h3>OUR AGENCY SPECIALIZE IN DIFFERENT TYPES OF PROPERTIES,
               SUCH AS RESIDENTIAL, COMMERCIAL, OR INDUSTRIAL
-              <br> REAL ESTATE.
+              REAL ESTATE.
             </h3>
             <form action="" id="banner_from">
               <div class="input_left">
@@ -91,7 +96,7 @@
                 <input type="text" id="status" placeholder="All Status">
               </div>
             </form>
-            <div class="nav_butoon">
+            <div class="nav_butoon comon_button  my">
               <button>SEARCH PLACES</button>
             </div>
           </div>
@@ -115,33 +120,36 @@
               </div>
             </div>
             <div class="row align-items-center about_img_Text">
-              <div class="col-lg-2">
+              <div class="col-lg-2 col-md-4 d-flex align-items-center justify-content-center">
                 <div class="about_imgl">
                   <img src="./img/about_left_img.png" alt="">
                 </div>
               </div>
-              <div class="col-lg-10">
+              <div class="col-lg-10 col-md-7">
                 <div class="about_left_para">
                   <p>
                     Our real estate agency is a business that
                     specializes in helping clients buy, sell, or rent
                     properties. Real estate agencies employ
-                    licensed real estate agents who are trained
+                    licensed <br class="d-none d-lg-block"> real estate agents who are trained
                     and knowledgeable about the real estate
                     market in a specific area. We also help clients
                     negotiate the terms of a sale or purchase.
 
                   </p>
-                  <div class="about_left_button">
+                  <div class="about_left_button my d-flex justify-content-center bg-primary d-none d-lg-block">
                     <button>More About Agency</button>
                   </div>
                 </div>
+              </div>
+              <div class="about_left_button my d-flex justify-content-center bg-primary d-lg-none">
+                <button>More About Agency</button>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 ar">
-          <div class="about_right_img">
+          <div class="about_right_img d-none d-lg-block">
             <img src="./img/about_right_img.png" alt="">
           </div>
         </div>
@@ -164,20 +172,20 @@
       </div>
       <div class="row allHowsmgt">
         <div class="col-lg-8">
-          <div class="row">
-            <div class="col main_home_button">
+          <div class="row all_home_in">
+            <div class="col-lg main_home_button col-3 mb-3 mb-lg-0">
               <a href="#">Singgle House</a>
             </div>
-            <div class="col main_home_button">
+            <div class="col-lg main_home_button col-3 mb-3 mb-lg-0">
               <a href="#">Townhouse</a>
             </div>
-            <div class="col main_home_button">
+            <div class="col-lg main_home_button col-3 mb-3 mb-lg-0">
               <a href="#">Family House</a>
             </div>
-            <div class="col main_home_button">
+            <div class="col-lg main_home_button col-3 mb-3 mb-lg-0">
               <a href="#">Duplex</a>
             </div>
-            <div class="col main_home_button">
+            <div class="col-lg main_home_button col-3 mb-3 mb-lg-0">
               <a href="#">Residential</a>
             </div>
           </div>
@@ -191,7 +199,7 @@
               sell, or rent properties. Real estate agencies employ licensed real estate
               agents who are trained.
             </span>
-            <div class="home_para_button">
+            <div class="home_para_button my">
               <button>READ MORE</button>
             </div>
           </div>
@@ -216,8 +224,8 @@
         </div>
       </div>
       <div class="row align-items-center">
-        <div class="col-lg-3">
-          <div class="success_img">
+        <div class="col-md-3">
+          <div class="success_img  d-md-none d-lg-block">
             <img src="./img/green_img.png" alt="">
           </div>
         </div>
@@ -239,7 +247,7 @@
             </div>
           </div>
         </div>
-        <div class="success_bg_img_p">
+        <div class="success_bg_img_p d-none d-lg-block">
           <img src="./img/main_home.png" alt="">
         </div>
       </div>
@@ -260,42 +268,42 @@
         </div>
       </div>
       <div class="row album_row">
-        <div class="col-lg-3">
+        <div class="col-md-3">
           <div class="album_card">
             <img src="./img/album_img.png" alt="img">
             <h3>/ Lakeside Minor </h3>
             <p>Residences / Villas - 2 floors - 150 sq.m</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3 mb-5 mb-md-0">
           <div class="album_card alp">
             <img src="./img/p2.png" alt="img">
             <h3>/ Lakeside Minor </h3>
             <p>Residences / Villas - 2 floors - 150 sq.m</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3 mb-5-md-0">
           <div class="album_card">
             <img src="./img/p3.png" alt="img">
             <h3>/ Lakeside Minor </h3>
             <p>Residences / Villas - 2 floors - 150 sq.m</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3 mt-5 mt-md-0">
           <div class="album_card">
             <img src="./img/p4.png" alt="img">
             <h3>/ Lakeside Minor </h3>
             <p>Residences / Villas - 2 floors - 150 sq.m</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3 mb-5 mb-md-0">
           <div class="album_card alp">
             <img src="./img/p5.png" alt="img">
             <h3>/ Lakeside Minor </h3>
             <p>Residences / Villas - 2 floors - 150 sq.m</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3">
           <div class="album_card">
             <img src="./img/p6.png" alt="img">
             <h3>/ Lakeside Minor </h3>
@@ -305,7 +313,7 @@
       </div>
       <div class="row">
         <div class="col-lg-3 mx-auto">
-          <div class="photo_album">
+          <div class="photo_album my">
             <button>View All Properties</button>
           </div>
         </div>
@@ -339,25 +347,25 @@
                 </div>
               </div>
               <div class="row count_number_parent">
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-5 mb-lg-0 col-6 col-md-3">
                   <div class="main_number">
                     <h3>67k</h3>
                     <span>Square Meters</span>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-5 mb-lg-0 col-6 col-md-3">
                   <div class="main_number">
                     <h3>45+</h3>
                     <span>Green Spaces</span>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-5 mb-lg-0 col-6 col-md-3">
                   <div class="main_number">
                     <h3>12</h3>
                     <span>Years of Experience</span>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-5 mb-lg-0 col-6 col-md-3">
                   <div class="main_number">
                     <h3>15</h3>
                     <span>Skilled Professionals</span>
@@ -382,12 +390,12 @@
     <div class="container">
       <div class="shill_main_contant">
         <div class="row main_shill align-items-center justify-content-between">
-          <div class="col-lg-4">
+          <div class="col-lg-4 mx-auto">
             <div class="shill_heading">
               <span>TEAM MEMBERS</span>
               <h3>Our Skilled Lead
                 Real Estate Agents</h3>
-              <div class="shill_button">
+              <div class="shill_button my">
                 <button>View All Teams</button>
               </div>
             </div>
@@ -406,7 +414,7 @@
   <footer id="footer">
     <div class="container">
       <div class="row main_footer_gap">
-        <div class="col-lg-5">
+        <div class="col-lg-4">
           <div class="footer_logo_heading">
             <img src="./img/logo.png" alt="img"> <br>
             <input type="email" placeholder="Your Email Address...">
@@ -427,10 +435,10 @@
           </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-4">
           <div class="row address_main">
             <div class="footer_rake"></div>
-            <div class="col-lg-5">
+            <div class="col-lg-4 col-4 ">
               <div class="footer_address_dit">
                 <h5>New York</h5>
                 <h6>+11823609198</h6>
@@ -438,7 +446,7 @@
                   NY 10002, USA</h4>
               </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-4 col-4 ">
               <div class="footer_address_dit">
                 <h5>New York</h5>
                 <h6>+11823609198</h6>
