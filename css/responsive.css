@@ -2064,6 +2064,10 @@
   #footer {
     padding-bottom: 45px;
   }
+  .navbar-nav {
+    text-align: left;
+    display: block;
+  }
 }
 /* sm  */
 @media (min-width: 576px) and (max-width: 768.99px) {
@@ -2619,6 +2623,10 @@
   }
   .copy_right {
     margin-top: 62px;
+  }
+  .navbar-nav {
+    text-align: left;
+    display: block;
   }
 }
 
@@ -3264,5 +3272,9 @@
   }
   .last_child {
     width: 351px;
+  }
+  .navbar-nav {
+    text-align: left;
+    display: block;
   }
 }
