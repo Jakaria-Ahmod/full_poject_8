@@ -2804,4 +2804,48 @@
     padding-top: -18px;
     margin-top: -29px;
   }
+  .about_left_button button {
+    bottom: -88px;
+    left: 100px;
+  }
+  .main_home_button a {
+    color: rgba(41, 49, 61, 0.5);
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+  }
+  .allHowsmgt {
+    margin-bottom: 100px;
+    margin-left: 8px;
+  }
+  .footer_address_dit {
+    margin-left: 20px;
+  }
+  .copy_right {
+    margin-top: 30px;
+  }
+  .footer_address_dit h4 {
+    font-size: 11px;
+  }
+  .socal_icon_parent {
+    margin-left: 11px;
+  }
+  .footer_logo_heading p {
+    color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 50px;
+    margin-top: 22px;
+    margin-bottom: 37px;
+    margin-left: 13px;
+  }
+  #album {
+    padding-bottom: 0px;
+  }
 }
