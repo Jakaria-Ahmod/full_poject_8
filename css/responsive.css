@@ -3221,4 +3221,42 @@
     height: 100%;
     margin-left: 11px;
   }
+  .about_imgl img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 52px;
+  }
+  .about_left_button {
+    position: relative;
+    margin-left: 18px;
+    margin-top: 105px;
+    width: 90%;
+  }
+  .about_imgl {
+    width: 391px;
+    height: 513px;
+    flex-shrink: 0;
+  }
+  .success_img img {
+    margin-top: 27px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    margin-left: 11px;
+  }
+  .success_heading {
+    text-align: center;
+    padding-top: 25px;
+  }
+  .success_img img {
+    margin-top: 27px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+  }
+  .success_bg {
+    margin-left: 0px;
+  }
 }
