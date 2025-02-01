@@ -31,7 +31,10 @@ p {
   align-items: center;
   column-gap: 4px;
 }
-
+.navbar-nav {
+  text-align: left;
+  display: block;
+}
 nav {
   padding-top: 50px;
 }
